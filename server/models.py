@@ -12,6 +12,13 @@ class User(Base):
     __tablename__ = 'users'
     id = Column(Integer, primary_key=True)
     email = Column(String(100), nullable=False,unique=True)
+    password = Column(String(100), nullable=False)
+
+class Images(Base):
+    __tablename__ = 'images'
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer)
+    image = Column(String(100), nullable=False)
     
 
 

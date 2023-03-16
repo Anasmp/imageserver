@@ -37,10 +37,8 @@ frontend/node_modules
 /coverage
 
 # production
-frontend/build
-
-backend/static/*
-
+server/storage
+server/thumb
 # misc
 .DS_Store
 /.env
