@@ -9,9 +9,21 @@ Image caching technique: Uploaded images are cached on the server to improve per
 
 To get started with the app, follow these steps:
 
-Clone the repository: git clone <repository-url>
-Install dependencies: npm install
-Start the app: npm start
+git clone <repository-url> 
+```
+ cd frontend
+ npm install
+ npm start 
+ open http://localhost:3000
+ 
+```
+
+```
+cd backend
+pip install -r requirements.txt
+python main.py
+
+```
 
 ## Usage
 
@@ -53,4 +65,6 @@ Here's an example of how to upload an image using the API:
 
 - [x] Dynamic thumbnail creation
 - [x] Image caching :tada:
+- [ ] Multiple Image uploading
+- [ ] progress bar
 - [ ] Signup Link
