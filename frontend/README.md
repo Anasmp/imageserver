@@ -18,9 +18,8 @@ To use the app in your own project, you can make use of the API provided by the 
 API
 The API provides a single endpoint for uploading images:
 
-bash
-Copy code
-POST /image/upload-image
+### POST /image/upload-image
+
 The endpoint expects a multipart/form-data payload with a single field named file. The image field should contain the image file that you want to upload.
 
 The endpoint returns a JSON response with the following fields:
@@ -37,5 +36,5 @@ React
 Node.js
 fast api
 
-Conclusion
+## Conclusion
 This React app provides a simple way for users to upload images to a public server, and developers can make use of the API provided by the server to upload images programmatically. This app can be used as a starting point for building image uploading functionality into your own website or application.
